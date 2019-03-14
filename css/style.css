@@ -1,0 +1,480 @@
+body{
+  background:#f4f4f4;
+  font-size: 16px;
+}
+.navbar-default .navbar-brand {
+  padding: 3px 15px 3px 15px;
+  height: 60px
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #ccc !Important;
+}
+.navbar-default {
+  background: #031b4d!Important;
+  border-color: #031b4d!Important;
+  border-color: #0b3761;
+}
+.navbar-default .navbar-brand {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #ccc;
+}
+.navbar-default .navbar-text {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #ccc;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #ccc;
+  background-color: #0b3761;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #ccc;
+  background-color: #0b3761;
+}
+.navbar-default .navbar-toggle {
+  border-color: #0b3761;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #0b3761;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ecf0f1;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ecf0f1;
+}
+.navbar-default .navbar-link {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-link:hover {
+  color: #ccc;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ecf0f1;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ecdbff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ecdbff;
+    background-color: #0b3761;
+  }
+}
+
+/* Custom */
+.main-color-bg{
+  background-color: #e74c3c !important;
+  background: #5465ad!important;
+  background: #031b4d!Important;
+  border-color: #031b4d!important;
+  color:#ffffff !important;
+}
+.white-color-bg {
+  background-color: #fff !important;
+}
+
+/* Header */
+#header{
+
+  background:#333333;
+  color:#ffffff;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+#header .create{
+  padding-top: 20px;
+}
+
+/* Breadcrumb */
+.breadcrumb{
+  background:#cccccc;
+  color:#333333;
+}
+
+.breadcrumb a{
+  color:#333333;
+}
+
+/* Progress Bars */
+
+.progress-bar{
+  background:#333333;
+  color:#ffffff;
+}
+
+.dash-box{
+  text-align:center;
+}
+
+#login{
+  margin-top:30px;
+}
+
+/* Footer */
+
+#footer{
+  background:#333333;
+  color:#ffffff;
+  text-align:center;
+  padding:30px;
+  margin-top:15px;
+  margin-bottom:35px;
+}
+#footer > p {
+    margin-bottom: 0;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ecf0f1;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ccc;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ccc;
+    background-color: #c0392b;
+  }
+}
+@media (min-width:768px) {
+.navbar-nav>li>a { 
+    padding-top: 30px !Important;
+    padding-bottom: 15px !Important;
+    }
+}
+.glyphicon-ok:before {
+    content: "\e013";
+    color: #54ad4c!important;
+}
+
+.glyphicon-remove:before {
+    content: "\e014";
+    color: #ff3048;
+}
+.mvh25 {
+    min-height: 25vh;
+}
+.well {
+    min-height: 20vh;
+}
+.dyn-well {
+    min-height: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+}
+h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 1.8rem;
+  text-align: center;
+  font-weight: bolder;
+}
+
+/* Radio Buttons */
+
+.barg {
+    height: 100%;
+}
+.radio {
+  margin: 1.5rem 0;
+}
+.radio label {
+    font-size 1.5rem;
+}
+.radio input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+}
+.radio input[type="radio"] + .radio-label:before {
+  content: '';
+  background: #f4f4f4;
+  border-radius: 100%;
+  border: 1px solid #b4b4b4;
+  display: inline-block;
+  width: 1.4em;
+  height: 1.4em;
+  position: relative;
+  top: -0.2em;
+  margin-right: 1em;
+  vertical-align: top;
+  cursor: pointer;
+  text-align: center;
+  font-size: 1.7rem;
+  transition: all 250ms ease;
+}
+.radio input[type="radio"]:checked + .radio-label:before  {
+  background-color: #3197EE;
+  box-shadow: inset 0 0 0 4px #f4f4f4;
+}
+.radio input[type="radio"]:focus + .radio-label:before {
+  outline: none;
+  border-color: #3197EE;
+}
+.radio input[type="radio"]:disabled + .radio-label:before {
+  box-shadow: inset 0 0 0 4px #f4f4f4;
+  border-color: #b4b4b4;
+  background: #b4b4b4;
+}
+.radio input[type="radio"] + .radio-label:empty:before {
+  margin-right: 0;
+}
+.file {
+  visibility: hidden;
+  position: absolute;
+}
+.btn.btn-primary {
+  background-color: #0f0f0f;
+  border-color: #0f0f0f;
+  outline: none;
+}
+.btn.btn-primary:active, .btn.btn-primary:focus {
+  background-color: #0f0f0f;
+  border-color: #0f0f0f;
+}
+.btn.btn-primary:disabled{
+
+  background-color: #888;
+  border-color: #888;
+}
+.btn.btn-primary:hover:disabled {
+
+  background-color: #888;
+  border-color: #888;
+}
+.heavy {
+    font-weight: 600;
+}
+.btn-cont {
+}
+.smallsep {
+	background: #aaa;
+	height: 1px;
+	width:  100%;
+	margin: auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.radiob {
+    padding-top: 30px;
+}
+.fixed-panel {
+  min-height: 45vh;
+}
+.navbar-brand>img {
+  height: 100%;
+}
+.banner-logo{
+  height: 10%;
+}
+.padl30 {
+    padding-left: 30px;
+}
+.hidden {
+ display: none
+}
+
+h5 {
+    margin-top: 1em;
+    margin-bottom: 0;
+}
+.muted-right {
+    display: flex;
+    justify-content: flex-end;
+}
+.img-profile {
+    display: flex;
+    justify-content: center;
+}
+.img-profile > img {
+    height: 150px;
+    border-radius: 50%;
+}
+i.icon-green {
+    color: green;
+}
+i.icon-red {
+    color: red;
+}
+td {
+    vertical-align: middle !Important;
+}
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+#login-modal .modal-dialog {
+    width: 350px;
+}
+#login-modal input[type=text], input[type=password] {
+	margin-top: 10px;
+}
+#div-login-msg,
+#div-lost-msg,
+#div-register-msg {
+    border: 1px solid #dadfe1;
+    height: 30px;
+    line-height: 28px;
+    transition: all ease-in-out 500ms;
+}
+#div-login-msg.success,
+#div-lost-msg.success,
+#div-register-msg.success {
+    border: 1px solid #68c3a3;
+    background-color: #c8f7c5;
+}
+#div-login-msg.error,
+#div-lost-msg.error,
+#div-register-msg.error {
+    border: 1px solid #eb575b;
+    background-color: #ffcad1;
+}
+#icon-login-msg,
+#icon-lost-msg,
+#icon-register-msg {
+    width: 30px;
+    float: left;
+    line-height: 28px;
+    text-align: center;
+    background-color: #dadfe1;
+    margin-right: 5px;
+    transition: all ease-in-out 500ms;
+}
+#icon-login-msg.success,
+#icon-lost-msg.success,
+#icon-register-msg.success {
+    background-color: #68c3a3 !important;
+}
+#icon-login-msg.error,
+#icon-lost-msg.error,
+#icon-register-msg.error {
+    background-color: #eb575b !important;
+}
+#img_logo {
+    max-height: 100px;
+    max-width: 100px;
+    horizontal-align: middle;
+}
+
+/* #########################################
+   #    override the bootstrap configs     #
+   ######################################### */
+
+#div-forms {
+        padding: 0;
+    }
+.modal-backdrop.in {
+    filter: alpha(opacity=50);
+    opacity: .8;
+}
+.modal-content {
+    background-color: #ececec;
+    border: 1px solid #bdc3c7;
+    border-radius: 0px;
+    outline: 0;
+}
+.modal-header {
+    min-height: 16.43px;
+    padding: 15px 15px 15px 15px;
+    border-bottom: 0px;
+}
+.modal-header .close {
+    padding: 0;
+    padding-top: 2px;
+    padding-right: 4px;
+}
+.modal-body {
+    position: relative;
+    padding: 5px 15px 5px 15px;
+}
+.modal-footer {
+    padding: 15px 15px 15px 15px;
+    text-align: left;
+    justify-content: center;
+    border-top: 0px;
+}
+
+/* The hero image */
+.hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/hardhats.jpeg);
+
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.label-primary {
+  background: #031b4d !Important;
+}
+.btn-fix-w{
+    width: 70px !Important;
+}
+/* Super fancy shake on error login form */
+.error-shake{
+    -webkit-animation: kf_shake 0.4s 1 linear;
+    -moz-animation: kf_shake 0.4s 1 linear;
+    -o-animation: kf_shake 0.4s 1 linear;
+}
+
+@-webkit-keyframes kf_shake {
+    0% { -webkit-transform: translate(30px); }
+    20% { -webkit-transform: translate(-30px); }
+    40% { -webkit-transform: translate(15px); }
+    60% { -webkit-transform: translate(-15px); }
+    80% { -webkit-transform: translate(8px); }
+    100% { -webkit-transform: translate(0px); }
+}
+@-moz-keyframes kf_shake {
+    0% { -moz-transform: translate(30px); }
+    20% { -moz-transform: translate(-30px); }
+    40% { -moz-transform: translate(15px); }
+    60% { -moz-transform: translate(-15px); }
+    80% { -moz-transform: translate(8px); }
+    100% { -moz-transform: translate(0px); }
+}
+@-o-keyframes kf_shake {
+    0% { -o-transform: translate(30px); }
+    20% { -o-transform: translate(-30px); }
+    40% { -o-transform: translate(15px); }
+    60% { -o-transform: translate(-15px); }
+    80% { -o-transform: translate(8px); }
+    100% { -o-origin-transform: translate(0px); }
+}
+
+
+.inline-m-icon {
+ vertical-align: bottom;    
+}

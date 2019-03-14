@@ -1,0 +1,694 @@
+<DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Safe Subby | Pre-Alpha | v0.9.8</title>
+    <!-- Bootstrap core CSS -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/circle.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Nav -->
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#"><img src="img/SSLogo_w.png" al="Safe Subby"> </a> 
+        </div>
+        <div id="navbar" class="">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="status.html">Dashboard</a></li>
+            <li><a href="index.html">Logout</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- /Nav -->
+    <!-- End # Login Form -->
+    <!-- header -->
+    <header id="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10">
+            <h2><span class="" aria-hidden="true"></span> SafeSubby | Pre-alpha | v.0.9</h2>
+          </div>
+          <div class="col-md-2">
+            <div class="dropdown create">
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                <li><a type="button" data-toggle="modal" data-target="#addPage">Add Page</a></li>
+                <li><a href="#">Add Post</a></li>
+                <li><a href="#">Add User</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- /header -->
+
+    <!-- Main content -->
+    <section id="main">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+
+            <!-- profile panel -->
+            <div class="panel panel-default">
+              <div class="panel-heading main-color-bg">
+                <h3 class="panel-title">Your Profile</h3>
+              </div>
+              <div class="panel-body">
+                <div class="img-profile">
+                  <img src="img/gregor.jpg">
+                </div>
+              </div>
+            </div>
+            <!-- /profile panel -->
+
+            <!-- status panel --> 
+            <div class="panel panel-default">
+              <div class="panel-heading main-color-bg">
+                <h3 class="panel-title">Your Status</h3>
+              </div>
+              <div class="panel-body">
+                <table class="table table-hover">
+                  <tr>
+                    <th>Woz Appnin</th>
+                    <th>599</th>
+                  </tr>
+                  <tr>
+                    <td>NACSC</td>
+                    <td><i class="material-icons icon-green">done</i></td>
+                  </tr>
+                  <tr>
+                    <td>Insurance</td>
+                    <td><i class="material-icons icon-green">done</i></td>
+                  </tr>
+                  <tr>
+                    <td>Waste Licence </td>
+                    <td><i class="material-icons icon-red">clear</i></td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+            <!-- /status panel --> 
+          </div>
+          <!-- /Left hand side --> 
+
+          <div class="col-md-9">
+            <!-- Questionnaire Panel -->
+            <div class="panel panel-default">
+              <div class="panel-heading main-color-bg">
+                <h3 class="panel-title">Subcontractor Application Questionnaire</h3>
+              </div>
+
+              <!-- Start Panel Section -->
+              <div class="panel-body fixed-panel">
+
+                <!-- Start Questionnaire -->
+
+                <!-- 21 -->
+                <div class="col-md-12">
+                  <div id="sectheader" class="dyn-well"><h3>Section 1: Quality Assurance</h3></div>
+                </div>
+                <div id="qu-21" class="21 ">
+                  <div class="col-md-9">
+                    <div class="well">
+                      <h4 class=""><span class="label label-primary ">2.1</span></h4>
+                      <h4 class=""><span class="heavy">Does your company operate an accredited quality system?</span></h4>
+                      <div class="smallsep"></div>
+                      <h5 class="">If <strong>yes</strong>, please upload soft copies of your documents before continuing.</h5>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="well radiob">
+                      <div class="radio">
+                        <input id="radio-211" name="radio" type="radio" value="Yes">
+                        <label for="radio-211" class="radio-label">Yes</label>
+                      </div>
+                      <div class="radio">
+                        <input id="radio-212" name="radio" type="radio" value="No">
+                        <label  for="radio-212" class="radio-label">No</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-9">
+                    <div class="well">
+                      <div class="form-group">
+                        <input type="file" name="img[]" class="file">
+                        <div class="input-group ">
+                          <span class="input-group-addon"><i class="glyphicon glyphicon-file"></i></span>
+                          <input type="text" class="form-control input-lg" disabled placeholder="Upload documents">
+                          <span class="input-group-btn">
+                            <button class="browse btn btn-primary input-lg" type="button" disabled><i class=""></i> Browse</button>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- 22 -->
+                <div id="qu-22" class="22 hidden">
+                  <div class="col-md-9">
+                    <div class="well">
+                      <h4 class=""><span class="label label-primary">2.2</span></h4>
+                      <h4 class=""><span class="heavy">Do you intend to gain accreditation to an ISO quality standard?</span></h4>
+                      <div class="smallsep"></div>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="well radiob">
+                      <div class="radio">
+                        <input id="radio-221" name="radio" type="radio" value="Yes">
+                        <label for="radio-221" class="radio-label">Yes</label>
+                      </div>
+                      <div class="radio">
+                        <input id="radio-222" name="radio" type="radio" value="No">
+                        <label  for="radio-222" class="radio-label">No</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-9">
+                    <div class="well">
+                      <div class="form-group">
+                        <label for="322_textarea">Please provide details</label>
+                        <textarea class="form-control rounded-0" id="322_textarea" rows="3"></textarea>
+                        <div class="muted-right">
+                          <small class="text-muted text-right">512 chars max</small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- 23 -->
+                <div id="qu-23" class="23 hidden">
+                  <div class="col-md-9">
+                    <div class="well">
+                      <h4 class=""><span class="label label-primary">2.3</span></h4>
+                      <h4 class=""><span class="heavy">Does a formal quality control system currently exist?</span></h4>
+                      <div class="smallsep"></div>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="well radiob">
+                      <div class="radio">
+                        <input id="radio-231" name="radio" type="radio" value="Yes">
+                        <label for="radio-231" class="radio-label">Yes</label>
+                      </div>
+                      <div class="radio">
+                        <input id="radio-232" name="radio" type="radio" value="No">
+                        <label  for="radio-232" class="radio-label">No</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-9">
+                    <div class="well">
+                      <div class="form-group">
+                        <label for="322_textarea">Please provide details</label>
+                        <textarea class="form-control rounded-0" id="322_textarea" rows="3"></textarea>
+                        <div class="muted-right">
+                          <small class="text-muted text-right">512 chars max</small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- 24 -->
+                <div id="qu-24" class="24 hidden">
+                  <div class="col-md-9">
+                    <div class="well">
+                      <h4 class=""><span class="label label-primary">2.4</span></h4>
+                      <h4 class=""><span class="heavy">Do you have a quality manual, policy and procedure?</h4>
+                      <h5 class="">If <strong>yes</strong>, please upload soft copies of your documents before continuing.</h5>
+                      <div class="smallsep"></div>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="well radiob">
+                      <div class="radio">
+                        <input id="radio-241" name="radio" type="radio" value="Yes">
+                        <label for="radio-241" class="radio-label">Yes</label>
+                      </div>
+                      <div class="radio">
+                        <input id="radio-242" name="radio" type="radio" value="No">
+                        <label  for="radio-242" class="radio-label">No</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-9">
+                    <div class="well">
+                      <div class="form-group">
+                        <input type="file" name="img[]" class="file">
+                        <div class="input-group ">
+                          <span class="input-group-addon"><i class="glyphicon glyphicon-file"></i></span>
+                          <input type="text" class="form-control input-lg" disabled placeholder="Upload documents">
+                          <span class="input-group-btn">
+                            <button class="browse btn btn-primary input-lg" type="button" disabled><i class=""></i> Browse</button>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- 25-->
+                <div id="qu-25" class="25 hidden">
+                  <div class="col-md-9">
+                    <div class="well">
+                      <h4 class=""><span class="label label-primary">2.5</span></h4>
+                      <h4 class=""><span class="heavy">Do you have a system for controlling non-conforming materials?</span></h4>
+                      <div class="smallsep"></div>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="well radiob">
+                      <div class="radio">
+                        <input id="radio-251" name="radio" type="radio" value="Yes">
+                        <label for="radio-251" class="radio-label">Yes</label>
+                      </div>
+                      <div class="radio">
+                        <input id="radio-252" name="radio" type="radio" value="No">
+                        <label  for="radio-252" class="radio-label">No</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-9">
+                    <div class="well">
+                      <div class="form-group">
+                        <label for="322_textarea">Please provide details</label>
+                        <textarea class="form-control rounded-0" id="322_textarea" rows="3"></textarea>
+                        <div class="muted-right">
+                          <small class="text-muted text-right">512 chars max</small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- 26 -->
+                <div id="qu-26" class="26 hidden">
+                  <div class="col-md-9">
+                    <div class="well">
+                      <h4 class=""><span class="heavy label label-primary">2.6</span></h4>
+                      <h4 class=""><span class="heavy">Can you supply a certificate of conformity?</span></h4>
+                      <div class="smallsep"></div>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="well radiob">
+                      <div class="radio">
+                        <input id="radio-261" name="radio" type="radio" value="Yes">
+                        <label for="radio-261" class="radio-label">Yes</label>
+                      </div>
+                      <div class="radio">
+                        <input id="radio-262" name="radio" type="radio" value="No">
+                        <label  for="radio-262" class="radio-label">No</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-9">
+                    <div class="well">
+                      <div class="form-group">
+                        <label for="322_textarea">Please provide details</label>
+                        <textarea class="form-control rounded-0" id="322_textarea" rows="3"></textarea>
+                        <div class="muted-right">
+                          <small class="text-muted text-right">512 chars max</small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- 27 -->
+                <div id="qu-27" class="27 hidden">
+                  <div class="col-md-9">
+                    <div class="well">
+                      <h4 class=""><span class="label label-primary">2.7</span></h4>
+                      <h4 class=""><span class="heavy">Are you prepared to agree to inspection and/or quality assurance visits?</span></h4>
+                      <div class="smallsep"></div>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="well radiob">
+                      <div class="radio">
+                        <input id="radio-271" name="radio" type="radio" value="Yes">
+                        <label for="radio-271" class="radio-label">Yes</label>
+                      </div>
+                      <div class="radio">
+                        <input id="radio-272" name="radio" type="radio" value="No">
+                        <label  for="radio-272" class="radio-label">No</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-9">
+                    <div class="well">
+                      <div class="form-group">
+                        <label for="322_textarea">Please provide details</label>
+                        <textarea class="form-control rounded-0" id="322_textarea" rows="3"></textarea>
+                        <div class="muted-right">
+                          <small class="text-muted text-right">512 chars max</small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- 28 -->
+                <div id="qu-28" class="28 hidden">
+                  <div class="col-md-9">
+                    <div class="well">
+                      <h4 class=""><span class="label label-primary">2.8</span></h4>
+                      <h4 class=""><span class="heavy">Please enter the details of your point of contact for quality problems with your products or services.</span></h4>
+
+                      <form class="well form-horizontal">
+                        <fieldset>
+                          <div class="form-group">
+                            <div class="col-md-8 inputGroupContainer">
+                              <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-chevron-right"></i></span><input id="fullName"  placeholder="Full Name" class="form-control" required="true" value="" type="text"></div>
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <div class="col-md-8 inputGroupContainer">
+                              <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-chevron-right"></i></span><input id="companyposition" placeholder="Company Position" class="form-control" required="true" value="" type="text"></div>
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <div class="col-md-8 inputGroupContainer">
+                              <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-chevron-right"></i></span><input id="email"  placeholder="Email " class="form-control" required="true" value="" type="text"></div>
+                            </div>
+                          </div>
+                          <div class="form-group">
+                            <div class="col-md-8 inputGroupContainer">
+                              <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-chevron-right"></i></span><input id="tel"  placeholder="Telephone" class="form-control" required="true" value="" type="text"></div>
+                            </div>
+                          </div>
+                        </fieldset>
+                      </form>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="well radiob hide">
+                      <div class="radio">
+                        <input id="radio-281" name="radio" type="radio" value="Yes">
+                        <label for="radio-281" class="radio-label">Yes</label>
+                      </div>
+                      <div class="radio">
+                        <input id="radio-282" name="radio" type="radio" value="No">
+                        <label  for="radio-282" class="radio-label">No</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                  </div>
+                </div>
+
+                <!-- Start Section 3 -->
+                <div id="qu-31" class="31 hidden">
+                  <div class="col-md-9">
+                    <div class="well">
+                      <h4 class=""><span class="label label-primary">3.1</span></h4>
+                      <h4 class=""><span class="heavy">Does your company operate an accredited environmental system?</span></h4>
+                      <div class="smallsep"></div>
+                      <h5 class="">If <strong>yes</strong>, please upload soft copies of your registration certificates.</h5>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="well radiob">
+                      <div class="radio">
+                        <input id="radio-311" name="radio" type="radio" value="Yes">
+                        <label for="radio-311" class="radio-label">Yes</label>
+                      </div>
+                      <div class="radio">
+                        <input id="radio-312" name="radio" type="radio" value="No">
+                        <label  for="radio-312" class="radio-label">No</label>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-9">
+                    <div class="well">
+                      <div class="form-group">
+                        <input type="file" name="img[]" class="file">
+                        <div class="input-group ">
+                          <span class="input-group-addon"><i class="glyphicon glyphicon-file"></i></span>
+                          <input type="text" class="form-control input-lg" disabled placeholder="Upload documents">
+                          <span class="input-group-btn">
+                            <button class="browse btn btn-primary input-lg" type="button" disabled><i class=""></i> Browse</button>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                </div>
+                <!-- End questionnaire-->
+                <div id="qu-32" class="32 hidden ">
+                  <div class="col-md-9">
+                    <div class="well">
+                      <h4 class=""><span class="label label-primary">3.2</span></h4>
+                      <h4 class=""><span class="heavy">Is your company working towards an environmental accreditation?</span></h4>
+                      <div class="smallsep"></div>
+                      <h5 class="">If <strong>yes</strong>, please provide a brief summary of how you plan to achieve this along with an approximate timeline in the box below.</h5>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="well radiob">
+                      <div class="radio">
+                        <input id="radio-321" name="radio" type="radio" value="Yes">
+                        <label for="radio-321" class="radio-label">Yes</label>
+                      </div>
+                      <div class="radio">
+                        <input id="radio-322" name="radio" type="radio" value="No">
+                        <label  for="radio-322" class="radio-label">No</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-9">
+                    <div class="well">
+                      <div class="form-group">
+                        <label for="322_textarea" >Plan summary</label>
+                        <textarea class="form-control rounded-0" id="322_textarea" rows="3" maxlength='512'></textarea>
+                        <div class="muted-right">
+                          <small class="text-muted text-right">512 chars max</small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div id="qu-33" class="33 hidden">
+                  <div class="col-md-9">
+                    <div class="well">
+                      <h4 class=""><span class="label label-primary">3.3</span></h4>
+                      <h4 class=""><span class="heavy">Does your company have any environmental improvement programmes or initiatives for any aspects of your operations, products or services?</span></h4>
+                      <div class="smallsep"></div>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="well radiob">
+                      <div class="radio">
+                        <input id="radio-331" name="radio" type="radio" value="Yes">
+                        <label for="radio-331" class="radio-label">Yes</label>
+                      </div>
+                      <div class="radio">
+                        <input id="radio-332" name="radio" type="radio" value="No">
+                        <label  for="radio-332" class="radio-label">No</label>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-9">
+                    <div class="well">
+                      <div class="form-group">
+                        <label for="322_textarea">Please provide details</label>
+                        <textarea class="form-control rounded-0" id="322_textarea" rows="3"></textarea>
+                        <div class="muted-right">
+                          <small class="text-muted text-right">512 chars max</small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div id="qu-34" class="34 hidden">
+                  <div class="col-md-9">
+                    <div class="well">
+                      <h4 class=""><span class="label label-primary">3.4</span></h4>
+                      <h4 class=""><span class="heavy">Does your company use recycled materials or products?</span></h4>
+                      <div class="smallsep"></div>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="well radiob">
+                      <div class="radio">
+                        <input id="radio-341" name="radio" type="radio" value="Yes">
+                        <label for="radio-341" class="radio-label">Yes</label>
+                      </div>
+                      <div class="radio">
+                        <input id="radio-342" name="radio" type="radio" value="No">
+                        <label  for="radio-342" class="radio-label">No</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-9">
+                    <div class="well">
+                      <div class="form-group">
+                        <label for="322_textarea">Please provide details</label>
+                        <textarea class="form-control rounded-0" id="322_textarea" rows="3"></textarea>
+                        <div class="muted-right">
+                          <small class="text-muted text-right">512 chars max</small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div id="qu-35" class="35 hidden">
+                  <div class="col-md-9">
+                    <div class="well">
+                      <h4 class=""><span class="label label-primary">3.5</span></h4>
+                      <h4 class=""><span class="heavy">Describe any special arrangements you have for waste disposal which ensure the minimisation of environmental pollution. (If none, state ‘none’)</span></h4>
+                      <div class="smallsep"></div>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="well radiob">
+                      <div class="radio">
+                        <input id="radio-351" name="radio" type="radio" value="Yes">
+                        <label for="radio-351" class="radio-label">Yes</label>
+                      </div>
+                      <div class="radio">
+                        <input id="radio-352" name="radio" type="radio" value="No">
+                        <label  for="radio-352" class="radio-label">No</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-9">
+                    <div class="well">
+                      <div class="form-group">
+                        <label for="322_textarea">Please provide details</label>
+                        <textarea class="form-control rounded-0" id="322_textarea" rows="3"></textarea>
+                        <div class="muted-right">
+                          <small class="text-muted text-right">512 chars max</small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div id="qu-36" class="36 hidden">
+                  <div class="col-md-9">
+                    <div class="well">
+                      <h4 class=""><span class="label label-primary">3.6</span></h4>
+                      <h4 class=""><span class="heavy">Describe any special arrangements you have for waste disposal which ensure minimisation of environmental pollution. (If none, state ‘none’)</span></h4>
+                      <div class="smallsep"></div>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="well radiob">
+                      <div class="radio">
+                        <input id="radio-361" name="radio" type="radio" value="Yes">
+                        <label for="radio-361" class="radio-label">Yes</label>
+                      </div>
+                      <div class="radio">
+                        <input id="radio-362" name="radio" type="radio" value="No">
+                        <label  for="radio-362" class="radio-label">No</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-9">
+                    <div class="well">
+                      <div class="form-group">
+                        <label for="322_textarea">Please provide details</label>
+                        <textarea class="form-control rounded-0" id="322_textarea" rows="3"></textarea>
+                        <div class="muted-right">
+                          <small class="text-muted text-right">512 chars max</small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div id="qu-41" class="41 hidden">
+                  <div class="col-md-9">
+                    <div class="well">
+                      <h4 class=""><span class="label label-primary">Thank you!</span></h4>
+                      <h4 class=""><span class="heavy">You're done</span></h4>
+                      <div class="smallsep"></div>
+                    </div>
+                  </div>
+                </div>
+                <!-- End of Questionnare container panel -->
+              </div>
+              <div class="panel-footer white-color-bg clearfix">
+                <a href="#" class="btn-cont pull-right btn btn-primary btn-default"><span class="glyphicon glyphicon-chevron-right"></span> continue</a>
+              </div>
+            </div>
+            <!-- End Questionnaire Panel -->
+
+            <!-- Circles Panel  -->
+            <div class="panel panel-default">
+              <div class="panel-heading main-color-bg">
+                <h3 class="panel-title">Member Rating</h3>
+              </div>
+              <div class="panel-body">
+
+                <div class="col-md-4">
+                  <div class="well dash-box">
+                    <div class="c100 p95 small center cgreen">
+                      <span>95%</span>
+                      <div class="slice"><div class="bar"></div><div class="fill"></div></div>
+                    </div>
+                    <h4>Capabilities</h4>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="well dash-box">
+                    <div class="c100 p72 small center _yellow">
+                      <span>72%</span>
+                      <div class="slice"><div class="bar"></div><div class="fill"></div></div>
+                    </div>
+                    <h4>Accreditations</h4>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="well dash-box">
+                    <div class="c100 p77 small center _orange">
+                      <span>77%</span>
+                      <div class="slice"><div class="bar"></div><div class="fill"></div></div>
+                    </div>
+                    <h4>Overall</h4>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+      <p>&copy; SafeSubby 2019</p>
+    </footer>
+
+    <!-- Modals -->
+
+
+    <!-- Bootstrap core JavaScript
+      ================================================== -->
+      <!-- Placed at the end of the document so the pages load faster -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/js.js"></script>
+  </body>
+</html>
